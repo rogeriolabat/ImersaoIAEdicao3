@@ -9,13 +9,11 @@ import requests # Para fazer requisições HTTP
 import warnings
 import markdown
 import textwrap
+from dotenv import load_dotenv
+import os
 
-#from dotenv import load_dotenv
-#import os
-#from google import genai
-#load_dotenv()
-#api_key = os.getenv("GOOGLE_API_KEY")
-#client = genai.Client()
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 
 warnings.filterwarnings("ignore")
 
